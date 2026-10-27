@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Licensed NIST-derived inputs and trained binary models
+data/modeling/
+data/raw/
+*.raw
+*.mzML
+*.joblib
+
+# Local output
+outputs/
+tmp/

@@ -1,0 +1,20 @@
+bit,meaning,source,definition
+desc_C,Carbon number,RDKit molecular graph,N_C
+desc_H,Hydrogen number,RDKit molecular graph,sum explicit + implicit H
+desc_DBE,Double-bond equivalent,RDKit molecular graph,C - H/2 + 1
+desc_H_C,H/C atomic ratio,RDKit molecular graph,H/C
+desc_is_chain_alkane,Acyclic saturated-hydrocarbon flag,RDKit molecular graph,1 if no ring and all C-C bonds single
+desc_is_aromatic,Aromatic-ring flag,RDKit aromaticity,1 if aromatic-ring count >= 1
+desc_dbe_ge_4,DBE >= 4 flag,RDKit molecular graph,1 if DBE >= 4
+desc_carbon_bond_count,Carbon-carbon bond count,RDKit molecular graph,number of C-C bonds
+desc_ring_count,SSSR ring count,RDKit RingInfo.AtomRings,number of rings in RDKit's SSSR ring set
+desc_double_bond_count,Non-aromatic C=C count,RDKit molecular graph,number of carbon-carbon bonds with BondType.DOUBLE; aromatic bonds are excluded
+desc_branch_carbon_count,Three-/four-connected carbon count,RDKit molecular graph,number of carbons with >=3 carbon neighbours; includes ring junctions
+desc_mean_carbon_degree,Mean carbon connectivity,RDKit molecular graph,2 x C-C bonds / C
+desc_carbon_skeleton_diameter,Carbon-skeleton diameter,RDKit molecular graph,maximum graph shortest-path distance between atoms
+desc_terminal_fraction,Terminal-carbon fraction,RDKit molecular graph,degree-1 carbons / C
+desc_ring_to_carbon_ratio,Ring density,RDKit molecular graph,SSSR ring count / C
+desc_is_isoalkane,Branched acyclic-alkane flag,RDKit molecular graph,chain alkane and >=1 carbon with >=3 carbon neighbours
+desc_has_ring,Ring-containing flag,RDKit molecular graph,1 if SSSR ring count >= 1
+desc_aromatic_ring_count,Aromatic-ring count,RDKit aromaticity,number of rings in the SSSR set for which every ring atom is aromatic
+desc_unsaturation_per_carbon,Degree of unsaturation,RDKit molecular graph,DBE / C

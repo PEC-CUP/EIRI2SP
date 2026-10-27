@@ -1,0 +1,183 @@
+{
+  "n_molecules": 5227,
+  "n_spectrum_features": 600,
+  "ri_columns": [
+    "desc_airi_ri"
+  ],
+  "desc_columns": [
+    "desc_C",
+    "desc_H",
+    "desc_DBE",
+    "desc_H_C",
+    "desc_is_chain_alkane",
+    "desc_is_cycloalkane",
+    "desc_is_alkene",
+    "desc_is_aromatic",
+    "desc_dbe_ge_4",
+    "desc_carbon_bond_count",
+    "desc_ring_count",
+    "desc_double_bond_count",
+    "desc_triple_bond_count",
+    "desc_branch_carbon_count",
+    "desc_quaternary_carbon_count",
+    "desc_terminal_carbon_count",
+    "desc_max_carbon_degree",
+    "desc_mean_carbon_degree",
+    "desc_longest_path_length_estimate",
+    "desc_branching_index",
+    "desc_terminal_fraction",
+    "desc_ring_to_carbon_ratio",
+    "desc_is_normal_alkane",
+    "desc_is_isoalkane",
+    "desc_has_ring",
+    "desc_aromatic_ring_count_estimate",
+    "desc_unsaturation_per_carbon"
+  ],
+  "fingerprint_columns": [
+    "alkene_any",
+    "alkene_terminal",
+    "alkyne_any",
+    "quaternary_carbon",
+    "tertiary_carbon",
+    "ring_aliphatic_3_49aa76c6",
+    "ring_aliphatic_5_92df7aa0",
+    "ring_aliphatic_4_18004bfa",
+    "ring_aliphatic_5_e5038db0",
+    "ring_aromatic_6_84480431",
+    "ring_aliphatic_6_36a45fa1",
+    "ring_aliphatic_6_9970801b",
+    "ring_aliphatic_7_87580d2a",
+    "ring_aliphatic_7_44c793b5",
+    "ring_aliphatic_8_9e484da7",
+    "ring_aliphatic_8_dc3e5431",
+    "ring_aromatic_9_afce84c1",
+    "ring_aliphatic_9_150adda3",
+    "ring_aliphatic_9_f0ab0e88",
+    "ring_aromatic_10_01f31866",
+    "ring_aromatic_10_c1d2687b",
+    "ring_aliphatic_10_1fe4ff10",
+    "ring_aliphatic_10_f09f6a8f",
+    "ring_aliphatic_10_9edcd2d2",
+    "ring_aromatic_5_9eb77984",
+    "ring_aromatic_14_a1e6ec18",
+    "ring_aromatic_14_541c53d1",
+    "ring_aromatic_6_8b792288",
+    "ring_aliphatic_9_8df094a4",
+    "ring_aromatic_18_1622d282"
+  ],
+  "n_Z": 57,
+  "property_meta": {
+    "chem_MW": [
+      "chemicals",
+      "A"
+    ],
+    "chem_Tb_K": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Tm_K": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Tc_K": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Pc_Pa": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Vc_m3_mol": [
+      "chemicals",
+      "B"
+    ],
+    "chem_omega": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Hfg_J_mol": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Hfl_J_mol": [
+      "chemicals",
+      "B"
+    ],
+    "chem_Hfus_J_mol": [
+      "chemicals",
+      "B"
+    ],
+    "chem_S0g_J_molK": [
+      "chemicals",
+      "B"
+    ],
+    "PubChem_Complexity": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_ExactMass": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_HeavyAtomCount": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_MolecularWeight": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_MonoisotopicMass": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_RotatableBondCount": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_TPSA": [
+      "PubChem computed",
+      "A"
+    ],
+    "PubChem_XLogP": [
+      "PubChem computed",
+      "A"
+    ],
+    "fuel_HHV_MJ_kg": [
+      "thermo",
+      "B"
+    ],
+    "fuel_density_g_ml_298K": [
+      "thermo",
+      "B"
+    ],
+    "fuel_flash_point_K": [
+      "thermo",
+      "C"
+    ],
+    "cetane_number_gc": [
+      "Kubic 2016 group-contribution ANN",
+      "B"
+    ],
+    "RON_gc": [
+      "Kubic 2016 group-contribution ANN",
+      "B"
+    ],
+    "MON_gc": [
+      "Kubic 2016 group-contribution ANN",
+      "B"
+    ]
+  },
+  "experimental_columns": [
+    "exp_Pc_bar",
+    "exp_Tc_K",
+    "exp_Vc_l_mol",
+    "exp_bp_K",
+    "exp_hvap_std_kJ_mol",
+    "exp_mp_K",
+    "exp_rhoc_mol_l",
+    "exp_triple_K",
+    "exp_flash_K",
+    "exp_density_gml"
+  ]
+}
